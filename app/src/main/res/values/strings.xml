@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Розклад руху автобусів</string>
+    <string name="first_logo">logo</string>
+    <string name="todo">TODO</string>
+    <string name="rozklad">Розклад руху автобусів м.Тальне</string>
+    <string name="button_in">*Для входу натисніть герб</string>
+</resources>
