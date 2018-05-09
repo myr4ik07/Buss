@@ -4,7 +4,16 @@
     <string name="todo">TODO</string>
     <string name="rozklad">Розклад руху автобусів м.Тальне</string>
     <string name="button_in">*Для входу натисніть герб</string>
-    <string name="whence">звідки</string>
-    <string name="where">куди</string>
-    <string name="rozkl_zag">загальний розклад</string>
+    <string name="whence">ЗВІДКИ</string>
+    <string name="where">КУДИ</string>
+    <string name="rozkl_zag">ЗАГАЛЬНИЙ РОЗКЛАД</string>
+
+    <string-array name="buss_stops">
+        <item>Автостанція</item>
+        <item>Центр</item>
+        <item>Масив</item>
+        <item>Лікарня</item>
+        <item>Вокзал</item>
+    </string-array>
+
 </resources>
