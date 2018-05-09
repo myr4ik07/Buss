@@ -8,9 +8,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.GridView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 public class Buss1 extends AppCompatActivity {
 
@@ -34,8 +38,6 @@ public class Buss1 extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String[] buss_stops = getResources().getStringArray(R.array.buss_stops);
                 dbSelect(buss_stops[position]);
-                // showMessange(buss_stops[position]);
-
             }
 
             @Override
@@ -72,7 +74,35 @@ public class Buss1 extends AppCompatActivity {
 
     private void dbFillUp() {
 
-        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№1', 'Автостанція', '10:21');");
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№1', '10.20', '0.15хв');");
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№2', '11.20', '1.15хв');");
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№3', '12.20', '2.15хв');");
+
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№1', '10.20', '0.15хв');");
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№2', '11.20', '1.15хв');");
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№3', '12.20', '2.15хв');");
+
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№1', '10.20', '0.15хв');");
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№2', '11.20', '1.15хв');");
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№3', '12.20', '2.15хв');");
+
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№1', '10.20', '0.15хв');");
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№2', '11.20', '1.15хв');");
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№3', '12.20', '2.15хв');");
+
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№1', '10.20', '0.15хв');");
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№2', '11.20', '1.15хв');");
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№3', '12.20', '2.15хв');");
+
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№1', '10.20', '0.15хв');");
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№2', '11.20', '1.15хв');");
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№3', '12.20', '2.15хв');");
+
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№1', '10.20', '0.15хв');");
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№2', '11.20', '1.15хв');");
+        sqLiteDatabase.execSQL("INSERT INTO " + nameTable + " VALUES ('№3', '12.20', '2.15хв');");
+
+
         showMessange("Виконаний перший вхід в програму");
         showMessange("База розкладу рухів авобусів заповнена автоматично!");
 
@@ -80,16 +110,28 @@ public class Buss1 extends AppCompatActivity {
 
     private void dbSelect(String autoStopName) {
 
+        GridView gridView = findViewById(R.id.result);
+
+        ArrayList listBuss = new ArrayList();
+        listBuss.add("№ маршруту");
+        listBuss.add("Час відправлення");
+        listBuss.add("Залишилося до відправлення");
+
+
         Cursor query = sqLiteDatabase.rawQuery("SELECT * FROM " + nameTable + ";", null);
 
         if (query.moveToFirst()) {
             do {
-                showMessange(query.getString(0));
-                showMessange(query.getString(1));
-                showMessange(query.getString(2));
+                listBuss.add(query.getString(0));
+                listBuss.add(query.getString(1));
+                listBuss.add(query.getString(2));
             }
             while (query.moveToNext());
         }
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.list_item, listBuss);
+        gridView.setAdapter(adapter);
+
         query.close();
 
     }
