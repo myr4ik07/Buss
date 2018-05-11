@@ -32,7 +32,7 @@ public class Buss1 extends AppCompatActivity {
 
         dbCreateTable();
 
-        Spinner spinner = (Spinner) findViewById(R.id.whence);
+        Spinner spinner = findViewById(R.id.whence);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -68,6 +68,8 @@ public class Buss1 extends AppCompatActivity {
         if (query.moveToFirst()) {
             exists = false;
         }
+
+        query.close();
 
         return exists;
     }
@@ -112,10 +114,10 @@ public class Buss1 extends AppCompatActivity {
 
         GridView gridView = findViewById(R.id.result);
 
-        ArrayList listBuss = new ArrayList();
+        ArrayList <String> listBuss = new ArrayList<>();
         listBuss.add("№ маршруту");
         listBuss.add("Час відправлення");
-        listBuss.add("Залишилося до відправлення");
+        listBuss.add("До відправлення");
 
 
         Cursor query = sqLiteDatabase.rawQuery("SELECT * FROM " + nameTable + ";", null);
@@ -129,7 +131,7 @@ public class Buss1 extends AppCompatActivity {
             while (query.moveToNext());
         }
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.list_item, listBuss);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.list_item, listBuss);
         gridView.setAdapter(adapter);
 
         query.close();
