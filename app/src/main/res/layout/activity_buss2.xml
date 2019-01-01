@@ -6,4 +6,1701 @@
     android:layout_height="match_parent"
     tools:context=".Buss2">
 
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        //android:text="№1 Автостанція - залізничний вокзал"
+                        //НАЗВА
+
+                        <TableRow
+                            android:id="@+id/_1"
+                            android:gravity="center_horizontal">
+
+                            <TextView
+                                android:id="@+id/n1"
+                                android:layout_span="6"
+                                android:gravity="center"
+                                android:text="№1 Автостанція - залізничний вокзал"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:typeface="serif"></TextView>
+                        </TableRow>
+
+                        //АВТОСТАНЦІЯ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="АВСТОСТАНЦІЯ "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="07:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="08:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                        </TableRow>
+
+                        //ЦЕНТР
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ЦЕНТР "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="07:35"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="08:45"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:25"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:35"></TextView>
+
+                        </TableRow>
+
+                        //МАСИВ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="МАСИВ "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="07:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="08:50"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:40"></TextView>
+
+                        </TableRow>
+
+                        //ЦЕНТР
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ЦЕНТР "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="07:45"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="08:55"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:35"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:45"></TextView>
+
+                        </TableRow>
+
+                        //ВОКЗАЛ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ВОКЗАЛ "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="08:05"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="09:15"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:55"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:05"></TextView>
+
+                        </TableRow>
+
+                        //ЦЕНТР
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ЦЕНТР "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="08:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="09:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:10"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:20"></TextView>
+
+                        </TableRow>
+
+                        //МАСИВ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="МАСИВ "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="08:25"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="09:35"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:15"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:25"></TextView>
+
+                        </TableRow>
+
+                        //ЦЕНТР
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ЦЕНТР "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="08:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="09:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:30"></TextView>
+
+                        </TableRow>
+
+                        //КОМЕНТАР
+
+                        <TextView
+                            android:id="@+id/com1"
+                            android:text="Рейс виконується: понеділок, середа, четвер з 7,30 до 10,20"
+                            android:textStyle="bold"></TextView>
+
+                        //ПРОБЕЛ
+
+                        <TableRow
+                            android:id="@+id/e1"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/et1"
+                                android:text=""
+                                android:textStyle="bold"></TextView>
+                        </TableRow>
+
+                        //android:text="№2 Автостанція - Базар"
+                        //НАЗВА
+
+                        <TableRow
+                            android:id="@+id/_2"
+                            android:gravity="center_horizontal">
+
+                            <TextView
+                                android:id="@+id/n2"
+                                android:layout_span="6"
+                                android:gravity="center"
+                                android:text="№2 Автостанція - Базар"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:typeface="serif"></TextView>
+                        </TableRow>
+
+                        //АВТОСТАНЦІЯ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="АВСТОСТАНЦІЯ "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="08:10"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="09:00"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="09:50"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:40"></TextView>
+
+                        </TableRow>
+
+                        //ЦЕНТР
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ЦЕНТР "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="08:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="09:10"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:00"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:50"></TextView>
+
+                        </TableRow>
+
+                        //БАЗАР
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="БАЗАР"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="08:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="09:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:10"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:00"></TextView>
+
+                        </TableRow>
+
+                        //ЦЕНТР
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ЦЕНТР "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="08:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="09:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:10"></TextView>
+
+                        </TableRow>
+
+                        //КОМЕНТАР
+
+                        <TextView
+                            android:id="@+id/com2"
+                            android:text="Рейс виконується : п'ятниця,неділя"
+                            android:textStyle="bold"></TextView>
+
+                        //ПРОБЕЛ
+
+                        <TableRow
+                            android:id="@+id/e2"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/et2"
+                                android:text=""
+                                android:textStyle="bold"></TextView>
+                        </TableRow>
+
+                        //android:text="№3 Автостанція - Лікарня - Нафтобаза"
+                        //НАЗВА
+
+                        <TableRow
+                            android:id="@+id/_3"
+                            android:gravity="center_horizontal">
+
+                            <TextView
+                                android:id="@+id/n3"
+                                android:layout_span="6"
+                                android:gravity="center"
+                                android:text="№3 Автостанція - Лікарня - Нафтобаза"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:typeface="serif"></TextView>
+                        </TableRow>
+
+                        //АВТОСТАНЦІ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="АВСТОСТАНЦІЯ "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="06:55"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="08:15"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="09:35"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:55"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="13:50"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="15:05"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="16:20"></TextView>
+
+                        </TableRow>
+
+                        //МАСИВ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="МАСИВ "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="07:07"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="08:27"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="09:47"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:07"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="14:00"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="15:10"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="16:30"></TextView>
+
+                        </TableRow>
+
+                        //ЛІКАРНЯ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ЛІКАРНЯ "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="07:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="08:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:00"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="14:10"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="15:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="16:40"></TextView>
+
+                        </TableRow>
+
+                        //НАФТОБАЗА
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="НАФТОБАЗА "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="07:35"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="08:55"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:15"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:35"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="14:25"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="15:35"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="17:00"></TextView>
+
+                        </TableRow>
+
+                        //ЛІКАРНЯ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ЛІКАРНЯ "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="07:45"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="09:05"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:25"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:45"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="14:35"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="15:45"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="17:10"></TextView>
+
+                        </TableRow>
+
+                        //МАСИВ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="МАСИВ "
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="07:58"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="09:18"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:38"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:58"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="14:45"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="15:55"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="17:20"></TextView>
+
+                        </TableRow>
+
+                        //КОМЕНТАР
+
+                        <TextView
+                            android:id="@+id/com3"
+                            android:text="Перерва з 12.15 до 13.45"
+                            android:textStyle="bold"></TextView>
+
+                        //ПРОБЕЛ
+
+                        <TableRow
+                            android:id="@+id/e3"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/et3"
+                                android:text=""
+                                android:textStyle="bold"></TextView>
+                        </TableRow>
+
+                        //===========================================
+
+                        //НАЗВА
+
+                        <TableRow
+                            android:id="@+id/_4"
+                            android:gravity="center_horizontal">
+
+                            <TextView
+                                android:id="@+id/n4"
+                                android:layout_span="6"
+                                android:gravity="center"
+                                android:text="№4 Автостанція - вул.Пролетарська"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:typeface="serif"></TextView>
+                        </TableRow>
+
+                        //ГОРОДАШІВКА
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="АВСТОСТАНЦІЯ"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //АВТОСТАНЦІЯ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ЦЕНТР"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //М-Н МЕБЛІ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="МАСИВ"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //ЩЕБЗАВОД
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ЦЕНТР"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //М-Н МЕБЛІ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ВОКЗАЛ"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //КОМЕНТАР
+
+                        <TextView
+                            android:id="@+id/com4"
+                            android:text="По суботах та неділях до 13,35 включно"
+                            android:textStyle="bold"></TextView>
+
+                        //ПРОБЕЛ
+
+                        <TableRow
+                            android:id="@+id/e4"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/et4"
+                                android:text=""
+                                android:textStyle="bold"></TextView>
+                        </TableRow>
+
+
+                        //№5 Автостанція - вул.Колгоспна
+
+                        //НАЗВА
+
+                        <TableRow
+                            android:id="@+id/_5"
+                            android:gravity="center_horizontal">
+
+                            <TextView
+                                android:id="@+id/n5"
+                                android:layout_span="6"
+                                android:gravity="center"
+                                android:text="№5 Автостанція - вул.Колгоспна"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:typeface="serif"></TextView>
+                        </TableRow>
+
+                        //АВТОСТАНЦІЯ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="АВСТОСТАНЦІЯ"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //ЦЕНТР
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ЦЕНТР"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //МАСИВ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="МАСИВ"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //ЦЕНТР
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ЦЕНТР"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //ВУЛ. КОЛГОСПНА
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ВОКЗАЛ"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //ЦЕНТР
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ЦЕНТР"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //МАСИВ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="МАСИВ"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //ЦЕНТР
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ЦЕНТР"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //КОМЕНТАР
+
+                        <TextView
+                            android:id="@+id/com5"
+                            android:text="В суботу вихідний, в неділю - до 12,00"
+                            android:textStyle="bold"></TextView>
+
+                        //ПРОБЕЛ
+
+                        <TableRow
+                            android:id="@+id/e5"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/et5"
+                                android:text=""
+                                android:textStyle="bold"></TextView>
+                        </TableRow>
+
+                        //№6 Автостанція - Цукрозавод - Лікарня
+
+                        //НАЗВА
+
+                        <TableRow
+                            android:id="@+id/_6"
+                            android:gravity="center_horizontal">
+
+                            <TextView
+                                android:id="@+id/n6"
+                                android:layout_span="6"
+                                android:gravity="center"
+                                android:text="№6 Автостанція - Цукрозавод - Лікарня"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:typeface="serif"></TextView>
+                        </TableRow>
+
+                        //АВТОСТАНЦІЯ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="АВСТОСТАНЦІЯ"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //ЦУКРОЗАВОД
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ЦЕНТР"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //ЦЕНТР
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="МАСИВ"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //ЛІКАРНЯ
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ЦЕНТР"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //ЦЕНТР
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="ВОКЗАЛ"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="11:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="12:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="6:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="7:30"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="8:40"></TextView>
+
+                            <TextView android:text="  "></TextView>
+
+                            <TextView android:text="10:20"></TextView>
+
+                        </TableRow>
+
+                        //КОМЕНТАР
+
+                        <TextView
+                            android:id="@+id/com6"
+                            android:text="Рейс виконується: понеділок, середа, четвер з 7,30 до 10,20"
+                            android:textStyle="bold"></TextView>
+
+                        //ПРОБЕЛ
+
+                        <TableRow
+                            android:id="@+id/e6"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/et6"
+                                android:text=""
+                                android:textStyle="bold"></TextView>
+                        </TableRow>
+
+                    </TableLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>
